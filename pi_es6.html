@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script   src="http://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<!-- VIEW LAYER -->
+		<div id="container"></div>
+
+		<!-- JAVSCRIPT CODE -->
+		<script>
+			function someFunction(item = 5){
+
+				console.log("Yes!");
+				return item;
+			}
+
+			var someVar = someFunction(9);
+			console.log(someVar);
+
+			// $(document).ready(function(){
+
+			// 	const MAX_FRIENDS = 3;
+
+			// 	var friendsList = ["Scott", "Millie", "Dev", "Huck", "Ryan", "Antoinette", "Kris"];
+
+			// 	if(friendsList.length > MAX_FRIENDS){
+			// 		friendsList.splice(MAX_FRIENDS, friendsList.length - MAX_FRIENDS);
+			// 	}
+
+			// 	for(var i = 0; i < friendsList.length; i++){
+			// 		appendDom(friendsList[i]);
+			// 	}
+			// });
+
+			// function appendDom(item){
+			// 	$("#container").append("<div></div>");
+			// 	var $el = $("#container").children().last();
+			// 	$el.append("<p>" + item + "</p>");
+			// }
+		</script>
+	</body>
+</html>
